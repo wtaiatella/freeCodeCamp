@@ -1,0 +1,154 @@
+/*
+Theme Name: freeCodeCamp Survey Form
+Theme URI: https://codepen.io/wtaiatella/pen/LYWEeab
+Author: Wagner Elias Taiatella
+Author URI: http://wtaiatella.github.com
+Description: Project for Responsive Web Design Certification.
+Version: 1.0
+
+-----------------------------------------------
+Basic Default
+-----------------------------------------------
+*** VARIEBLE DECLARATION
+*** GENERAL STYLES
+*** HEADER
+*** FOOTER
+*** MAIN PAGE
+*** EXTRAS
+*** @MEDIA
+
+font-family: 'Poppins', sans-serif;
+
+Colors used:
+dark blue: rgba(27,27,50,0.8)
+back blue: rgba(115,115,188,1)
+button: #37af65;
+white-text: #f3f3f3
+*/
+
+/* GENERAL STYLES */
+html,
+body,
+figure,
+img,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+main {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.root {
+  --color-dark-blue: rgba(27, 27, 50, 0.8);
+  --color-back-blue: #7373bc;
+  --color-button: #37af65;
+  --color-text-white: #f3f3f3;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+
+/*  HEADER  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 300px;
+  margin-top: 1em;
+}
+header nav {
+  width: 50%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+}
+header nav a {
+  color: black;
+  width: ;
+}
+
+/* FOOTER  */
+footer {
+}
+footer nav {
+}
+footer nav a {
+}
+footer p {
+}
+
+/* MAIN  */
+main {
+}
+
+.container {
+}
+
+h1 {
+}
+.form {
+}
+.form input {
+}
+.form button {
+}
+
+.features {
+}
+.table {
+}
+.icon {
+}
+.description {
+}
+.video {
+}
+
+.pricing {
+}
+.pricing > .block-price {
+}
+.pricing h3 {
+}
+.pricing > .product-price {
+}
+.pricing p {
+}
+.pricing button {
+}
+
+footer {
+}
+footer nav {
+}
+footer li {
+}
+footer p {
+}
+
+/* EXTRAS */
+
+/* @MEDIA  */
