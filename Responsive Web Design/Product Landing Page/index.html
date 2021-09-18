@@ -5,8 +5,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
    <title>Document</title>
    <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,109 +18,115 @@
       <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original Trombones">
 
       <nav id="nav-bar">
-         <a class="nav-link" href="#">Features</a>
-         <a class="nav-link" href="#">How It Works</a>
-         <a class="nav-link" href="#">Pricing</a>
+         <a class="nav-link" href="#features">Features</a>
+         <a class="nav-link" href="#how-it-works">How It Works</a>
+         <a class="nav-link" href="#pricing">Pricing</a>
       </nav>
    </header>
 
    <main>
-      <div class=container>
+      <div class=newsletter>
          <h1>Handcrafted, home-made masterpieces</h1>
          <form class="form" id="form" target="_blank" action="https://www.freecodecamp.com/email-submit">
-            <input type="email" name="email" id="email" required>
-            <button id="submit" type="submit">GET STARTED</button>
+            <input type="email" name="email" id="email" class="email" placeholder="write your e-mail" required>
+            <input id="submit" type="submit" class="btn" value="GET STARTED">
          </form>
+      </div>
 
-         <section class="features " id="features">
-            <div class="table">
-               <div class="icon">
-                  <svg viewBox="0 0 384 512" width="60" title="fire">
-                     <path d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" fill="orange" />
-                  </svg>
-               </div>
-               <div class="description">
-                  <h2>Premium Materials</h2>
-                  <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-               </div>
+      <section class="features" id="features">
+         <div class="grid">
+            <div class="icon">
+               <svg viewBox="0 0 384 512" width="40" title="fire">
+                  <path d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" fill="orange" />
+               </svg>
+            </div>
+            <div class="description">
+               <h2>Premium Materials</h2>
+               <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+         </div>
+
+         <div class="grid">
+            <div class="icon">
+               <svg viewBox="0 0 640 512" width="40" title="truck">
+                  <path d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z" fill="orange" />
+               </svg>
             </div>
 
-            <div class="table">
-               <div class="icon">
-                  <svg viewBox="0 0 640 512" width="60" title="truck">
-                     <path d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z" fill="orange" />
-                  </svg>
-               </div>
-
-               <div class="description">
-                  <h2>Fast Shipping</h2>
-                  <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-               </div>
+            <div class="description">
+               <h2>Fast Shipping</h2>
+               <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
             </div>
+         </div>
 
-            <div class="table">
-               <div class="icon">
-                  <svg viewBox="0 0 640 512" width="60" title="battery-full">
-                     <path d="M544 160v64h32v64h-32v64H64V160h480m16-64H48c-26.51 0-48 21.49-48 48v224c0 26.51 21.49 48 48 48h512c26.51 0 48-21.49 48-48v-16h8c13.255 0 24-10.745 24-24V184c0-13.255-10.745-24-24-24h-8v-16c0-26.51-21.49-48-48-48zm-48 96H96v128h416V192z" fill="orange" />
-                  </svg>
-               </div>
-               <div class="description">
-                  <h2>Quality Assurance</h2>
-                  <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-               </div>
+         <div class="grid">
+            <div class="icon">
+               <svg viewBox="0 0 640 512" width="40" title="battery-full">
+                  <path d="M544 160v64h32v64h-32v64H64V160h480m16-64H48c-26.51 0-48 21.49-48 48v224c0 26.51 21.49 48 48 48h512c26.51 0 48-21.49 48-48v-16h8c13.255 0 24-10.745 24-24V184c0-13.255-10.745-24-24-24h-8v-16c0-26.51-21.49-48-48-48zm-48 96H96v128h416V192z" fill="orange" />
+               </svg>
             </div>
-         </section>
-
-         <section id="how-it-works">
-            <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </section>
-
-         <section id="pricing" class="pricing">
-            <div class=block-price>
-               <h3>TENOR TROMBONE</h3>
-               <p class="product-price">$600</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum dolor.</p>
-               <p>Lorem ipsum.</p>
-               <button>Select</button>
+            <div class="description">
+               <h2>Quality Assurance</h2>
+               <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
             </div>
+         </div>
+      </section>
 
-            <div class=block-price>
-               <h3>BASS TROMBONE</h3>
-               <p class="product-price">$900</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum dolor.</p>
-               <p>Lorem ipsum.</p>
-               <button>Select</button>
-            </div>
 
-            <div class=block-price>
-               <h3>VALVE TROMBONE</h3>
-               <p class="product-price">$1200</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum.</p>
-               <p>Lorem ipsum dolor.</p>
-               <p>Lorem ipsum.</p>
-               <button>Select</button>
-            </div>
-
-         </section>
+      <div class="video" id="how-it-works">
+         <iframe id="video" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allowfullscreen>
+         </iframe>
       </div>
 
 
+      <section id="pricing" class="products">
+         <div class=product>
+            <h3>TENOR TROMBONE</h3>
+            <p>$600</p>
+            <ul>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum dolor.</li>
+               <li>Lorem ipsum.</li>
+            </ul>
+            <button class="btn">Select</button>
+         </div>
+
+         <div class=product>
+            <h3>BASS TROMBONE</h3>
+            <p>$900</p>
+            <ul>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum dolor.</li>
+               <li>Lorem ipsum.</li>
+            </ul>
+            <button class="btn">Select</button>
+         </div>
+
+         <div class=product>
+            <h3>VALVE TROMBONE</h3>
+            <p>$600</p>
+            <ul>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum.</li>
+               <li>Lorem ipsum dolor.</li>
+               <li>Lorem ipsum.</li>
+            </ul>
+            <button class="btn">Select</button>
+         </div>
+
+      </section>
    </main>
+
 
    <footer>
       <nav>
-         <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-         </ul>
+         <a class="nav-link" href="#">Privacy</a>
+         <a class="nav-link" href="#">Terms</a>
+         <a class="nav-link" href="#">Contact</a>
       </nav>
-      <p>Copyright 2016, Original Trombones</p>
+      <span>Copyright 2016, Original Trombones</span>
    </footer>
 </body>
 
