@@ -2,11 +2,11 @@
 
 freeCodeCamp was one of my first online coding courses. It was very helpfull with a lot of exercicies and projetcs.
 
-"ve finnished already Responsive Web Disigned Projetcs and know I'm working on exercicies of JavaScript Course.
+I've finnished already Responsive Web Disigned Certification and know I'm working on exercicies of JavaScript Course.
 
 Here are the files created during my studies and few free to watch them.
 
-Here is my freeCodeCamp profile: https://www.freecodecamp.org/wagner-taiatella
+freeCodeCamp profile: https://www.freecodecamp.org/wagner-taiatella
 
 Codepen exercises: https://codepen.io/collection/xKbrGO
 
